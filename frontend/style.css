@@ -3,9 +3,76 @@ body {
 	color: indianred;
 	font-family: 'Montserrat', sans-serif;
 }
-h1 {
-	font-weight: 900;
-}
+
 div {
 	font-weight: 400;
+	font-size: 50px;
+
+	width: 200px;
+	height: 200px;
+
+	padding-top: 8px;
+	padding-right: 80px;
+	padding-bottom: 120px;
+	padding-left: 40px;
+
+	border: 10px solid rgb(71,124,233);
+
+	margin-top: 50px;
+	margin-right: 5px;
+	margin-bottom: 100px;
+	margin-left: 10px;
+}
+
+span {
+	display: inline-block;
+
+	font-weight: 400;
+	font-size: 50px;
+
+	width: 200px;
+	height: 200px;
+
+	padding-top: 8px;
+	padding-right: 80px;
+	padding-bottom: 120px;
+	padding-left: 40px;
+
+	border: 10px solid rgb(71, 124, 223);
+
+	margin-top: 50px;
+	margin-right: 5px;
+	margin-bottom: 100px;
+	margin-left: 10px;
+}
+
+button {
+	display: block;
+	position: fixed;
+
+	font-weight: 100;
+	font-size: 400px;
+	font-family: 'Roboto', sans-serif;
+	
+	width: 300px;
+	height: 300px;
+
+	padding-top: 2px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+
+	border: none;
+	border-radius: 40px;
+
+	margin-top: -150px;
+	margin-left: -150px;
+
+	left: 50%;
+	top: 50%;
+
+	background-color: lightseagreen;
+	color: white;
+	text-transform: uppercase;
+	line-height: 300px;
 }
